@@ -10,11 +10,13 @@ body  {
 }
 
 nav {
-  margin-left: 100px;
-  padding: 10px 0px 10px 0px;
+  /* margin-left: 100px; */
+  margin: 0% 10% 0% 10%;
+  padding: 1% 0 1% 0;
   position: absolute;
   width: 50%;
   background-color: black ;
+  display: block;
 }
 
 .arrow-left {
@@ -23,15 +25,19 @@ nav {
 }
 
 .restaurant-list {
-  margin: 0px 100px 0px 100px;
-  padding-top: 56px;
+  margin: 0% 40% 0% 10%;
+  padding-top: 5.5%;
   width: 50%;
+  display: block;
 }
 
 .location {
   margin: 1px;
   background-color: #DFDEE0  ;
-  padding: 10px;
+  padding: 1%;
+  display: flex;
+  /* display: inline-block; */
+
 }
 
 .location:hover {
@@ -39,12 +45,15 @@ nav {
 }
 
 .content{
-  width: 70%;
+  width: 92%;
 }
 
 .arrow {
   float: right;
-  margin-right: 20px;
+  margin-right: 1%;
+  margin-top: 2%;
+  display: inline-block;
+/*   padding: 5px; */
 }
 
 
@@ -58,6 +67,6 @@ nav {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 10% 10% 0 10%;
   width: 100%;
 }
