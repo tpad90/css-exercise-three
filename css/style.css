@@ -6,12 +6,12 @@ body  {
   background-color: #333;
   font-family: sans-serif;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 nav {
   /* margin-left: 100px; */
-  margin: 0% 10% 0% 10%;
+  margin: 0% 10% 20px 10%;
   padding: 1% 0 1% 0;
   position: absolute;
   width: 50%;
@@ -26,7 +26,7 @@ nav {
 
 .restaurant-list {
   margin: 0% 40% 0% 10%;
-  padding-top: 5.5%;
+  padding-top: 40px;
   width: 50%;
   display: block;
 }
@@ -34,7 +34,7 @@ nav {
 .location {
   margin: 1px;
   background-color: #DFDEE0  ;
-  padding: 1%;
+  padding: 5%;
   display: flex;
   /* display: inline-block; */
 
@@ -51,22 +51,26 @@ nav {
 .arrow {
   float: right;
   margin-right: 1%;
-  margin-top: 2%;
-  display: inline-block;
+  margin-top: 3%;
 /*   padding: 5px; */
 }
 
+.content {
+  padding: 10px 0px 10px 0px;
+}
 
 .content h1 {
-  font-size: 32px;
+  font-size: 24px;
   color: black;
+  font-weight: 600;
 }
+
 .content h3 {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 }
 
 .container {
-  margin: 10% 10% 0 10%;
+  margin: 0% 10% 0 10%;
   width: 100%;
 }
